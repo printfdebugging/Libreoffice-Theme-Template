@@ -1,1 +1,1 @@
-# Libreoffice-Theme-Template
+# Libreoffice Theme Template

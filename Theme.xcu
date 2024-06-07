@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE oor:component-data SYSTEM "../../../../component-update.dtd">
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="UI" oor:package="org.openoffice.Office">
+    <node oor:name="ColorScheme">
+        <prop oor:name="CurrentColorScheme">
+            <value>DemoTheme Light</value>
+        </prop>
+        <node oor:name="ColorSchemes">
+            <node oor:name="DemoTheme Light" oor:op="replace">
+                <node oor:name="MenubarBackground">
+                    <prop oor:name="Color">
+                        <value>16777215</value>
+                    </prop>
+                </node>
+            </node>
+            <node oor:name="DemoTheme Dark" oor:op="replace">
+                <node oor:name="MenubarBackground">
+                    <prop oor:name="Color">
+                        <value>0</value>
+                    </prop>
+                </node>
+            </node>
+        </node>
+    </node>
+</oor:component-data>

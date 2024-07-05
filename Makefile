@@ -1,2 +1,2 @@
 run :
-	zip -r ExtensionName.oxt "."
+	zip -r DemoTheme.oxt "."

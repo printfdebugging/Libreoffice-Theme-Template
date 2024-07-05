@@ -267,7 +267,7 @@
                 </node>
                 <node oor:name="CalcCellFocus">
                     <prop oor:name="Color">
-                        <value>255</value>
+                        <value>3181766</value>
                     </prop>
                 </node>
                 <node oor:name="CalcPageBreak">
@@ -685,7 +685,7 @@
                 </node>
                 <node oor:name="CalcCellFocus">
                     <prop oor:name="Color">
-                        <value>255</value>
+                        <value>5280650</value>
                     </prop>
                 </node>
                 <node oor:name="CalcPageBreak">

@@ -1,1681 +1,850 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE oor:component-data SYSTEM "../../../../component-update.dtd">
-<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="UI" oor:package="org.openoffice.Office">
-    <node oor:name="ColorScheme">
-        <node oor:name="ColorSchemes">
-            <node oor:name="DemoTheme Light" oor:op="replace">
-                <!-- Group UI -->
-                <node oor:name="WindowColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="WindowTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="BaseColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="AccentColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledColor">
-                    <prop oor:name="Color">
-                        <value>12500670</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="ShadowColor">
-                    <prop oor:name="Color">
-                        <value>12500670</value>
-                    </prop>
-                </node>
-                <node oor:name="SeparatorColor">
-                    <prop oor:name="Color">
-                        <value>15395562</value>
-                    </prop>
-                </node>
-                <node oor:name="FaceColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FieldColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBorderColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveTextColor">
-                    <prop oor:name="Color">
-                        <value>7368816</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="DocColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="DocBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="AppBackground">
-                    <prop oor:name="Color">
-                        <value>14671838</value>
-                    </prop>
-                </node>
-                <node oor:name="ObjectBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="TableBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FontColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="Links">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="LinksVisited">
-                    <prop oor:name="Color">
-                        <value>204</value>
-                    </prop>
-                </node>
-                <node oor:name="Spell">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="Grammar">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="SmartTags">
-                    <prop oor:name="Color">
-                        <value>16711935</value>
-                    </prop>
-                </node>
-                <node oor:name="Shadow">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterTextGrid">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterFieldShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterIdxShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterDirectCursor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterScriptIndicator">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterSectionBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterHeaderFooterMark">
-                    <prop oor:name="Color">
-                        <value>223651</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterPageBreaks">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLSGML">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLComment">
-                    <prop oor:name="Color">
-                        <value>65280</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLKeyword">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLUnknown">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcGrid">
-                    <prop oor:name="Color">
-                        <value>13421772</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcCellFocus">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreak">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakManual">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakAutomatic">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcHiddenColRow">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcTextOverflow">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcComments">
-                    <prop oor:name="Color">
-                        <value>12550558</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetective">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetectiveError">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcReference">
-                    <prop oor:name="Color">
-                        <value>15667199</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcNotesBackground">
-                    <prop oor:name="Color">
-                        <value>16777152</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcValue">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcFormula">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcText">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcProtectedBackground">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="DrawGrid">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICEditor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICIdentifier">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICNumber">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICString">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICOperator">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICKeyword">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICError">
-                    <prop oor:name="Color">
-                        <value>8388608</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLIdentifier">
-                    <prop oor:name="Color">
-                        <value>39168</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLNumber">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLString">
-                    <prop oor:name="Color">
-                        <value>13531904</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLOperator">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLKeyword">
-                    <prop oor:name="Color">
-                        <value>230</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLParameter">
-                    <prop oor:name="Color">
-                        <value>2465181</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-            </node>
-            <node oor:name="DemoTheme Light Default" oor:op="replace">
-                <!-- Group UI -->
-                <node oor:name="WindowColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="WindowTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="BaseColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="AccentColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledColor">
-                    <prop oor:name="Color">
-                        <value>12500670</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="ShadowColor">
-                    <prop oor:name="Color">
-                        <value>12500670</value>
-                    </prop>
-                </node>
-                <node oor:name="SeparatorColor">
-                    <prop oor:name="Color">
-                        <value>15395562</value>
-                    </prop>
-                </node>
-                <node oor:name="FaceColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FieldColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuTextColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightColor">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBorderColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveTextColor">
-                    <prop oor:name="Color">
-                        <value>7368816</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="DocColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="DocBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="AppBackground">
-                    <prop oor:name="Color">
-                        <value>14671838</value>
-                    </prop>
-                </node>
-                <node oor:name="ObjectBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="TableBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FontColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="Links">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="LinksVisited">
-                    <prop oor:name="Color">
-                        <value>204</value>
-                    </prop>
-                </node>
-                <node oor:name="Spell">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="Grammar">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="SmartTags">
-                    <prop oor:name="Color">
-                        <value>16711935</value>
-                    </prop>
-                </node>
-                <node oor:name="Shadow">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterTextGrid">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterFieldShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterIdxShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterDirectCursor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterScriptIndicator">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterSectionBoundaries">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterHeaderFooterMark">
-                    <prop oor:name="Color">
-                        <value>223651</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterPageBreaks">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLSGML">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLComment">
-                    <prop oor:name="Color">
-                        <value>65280</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLKeyword">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLUnknown">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcGrid">
-                    <prop oor:name="Color">
-                        <value>13421772</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcCellFocus">
-                    <prop oor:name="Color">
-                        <value>3181766</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreak">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakManual">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakAutomatic">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcHiddenColRow">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcTextOverflow">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcComments">
-                    <prop oor:name="Color">
-                        <value>12550558</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetective">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetectiveError">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcReference">
-                    <prop oor:name="Color">
-                        <value>15667199</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcNotesBackground">
-                    <prop oor:name="Color">
-                        <value>16777152</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcValue">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcFormula">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcText">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcProtectedBackground">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="DrawGrid">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICEditor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICIdentifier">
-                    <prop oor:name="Color">
-                        <value>32768</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICNumber">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICString">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICOperator">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICKeyword">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICError">
-                    <prop oor:name="Color">
-                        <value>8388608</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLIdentifier">
-                    <prop oor:name="Color">
-                        <value>39168</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLNumber">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLString">
-                    <prop oor:name="Color">
-                        <value>13531904</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLOperator">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLKeyword">
-                    <prop oor:name="Color">
-                        <value>230</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLParameter">
-                    <prop oor:name="Color">
-                        <value>2465181</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-            </node>
-            <node oor:name="DemoTheme Dark" oor:op="replace">
-                <node oor:name="WindowColor">
-                    <prop oor:name="Color">
-                        <value>1118481</value>
-                    </prop>
-                </node>
-                <node oor:name="WindowTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="BaseColor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonTextColor">
-                    <prop oor:name="Color">
-                        <value>14540253</value>
-                    </prop>
-                </node>
-                <node oor:name="AccentColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledTextColor">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="ShadowColor">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="SeparatorColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="FaceColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FieldColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarColor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBorderColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveColor">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveTextColor">
-                    <prop oor:name="Color">
-                        <value>10066329</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="DocColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="DocBoundaries">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="AppBackground">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="ObjectBoundaries">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="TableBoundaries">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="FontColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="Links">
-                    <prop oor:name="Color">
-                        <value>1939955</value>
-                    </prop>
-                </node>
-                <node oor:name="LinksVisited">
-                    <prop oor:name="Color">
-                        <value>10181046</value>
-                    </prop>
-                </node>
-                <node oor:name="Spell">
-                    <prop oor:name="Color">
-                        <value>13181214</value>
-                    </prop>
-                </node>
-                <node oor:name="Grammar">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="SmartTags">
-                    <prop oor:name="Color">
-                        <value>7865203</value>
-                    </prop>
-                </node>
-                <node oor:name="Shadow">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterTextGrid">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterFieldShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterIdxShadings">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterDirectCursor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterScriptIndicator">
-                    <prop oor:name="Color">
-                        <value>1993273</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterSectionBoundaries">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterHeaderFooterMark">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterPageBreaks">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLSGML">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLComment">
-                    <prop oor:name="Color">
-                        <value>65280</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLKeyword">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLUnknown">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcGrid">
-                    <prop oor:name="Color">
-                        <value>1118481</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcCellFocus">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreak">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakManual">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakAutomatic">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcHiddenColRow">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcTextOverflow">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcComments">
-                    <prop oor:name="Color">
-                        <value>12550558</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetective">
-                    <prop oor:name="Color">
-                        <value>3494505</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetectiveError">
-                    <prop oor:name="Color">
-                        <value>13181214</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcReference">
-                    <prop oor:name="Color">
-                        <value>861141</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcNotesBackground">
-                    <prop oor:name="Color">
-                        <value>15245826</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcValue">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcFormula">
-                    <prop oor:name="Color">
-                        <value>7847013</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcText">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcProtectedBackground">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="DrawGrid">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICEditor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICIdentifier">
-                    <prop oor:name="Color">
-                        <value>14543051</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICComment">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICNumber">
-                    <prop oor:name="Color">
-                        <value>16754342</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICString">
-                    <prop oor:name="Color">
-                        <value>16754342</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICOperator">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICKeyword">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICError">
-                    <prop oor:name="Color">
-                        <value>16726072</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLIdentifier">
-                    <prop oor:name="Color">
-                        <value>39168</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLNumber">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLString">
-                    <prop oor:name="Color">
-                        <value>13531904</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLOperator">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLKeyword">
-                    <prop oor:name="Color">
-                        <value>230</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLParameter">
-                    <prop oor:name="Color">
-                        <value>2465181</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-            </node>
-            <node oor:name="DemoTheme Dark Default" oor:op="replace">
-                <node oor:name="WindowColor">
-                    <prop oor:name="Color">
-                        <value>1118481</value>
-                    </prop>
-                </node>
-                <node oor:name="WindowTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="BaseColor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="ButtonTextColor">
-                    <prop oor:name="Color">
-                        <value>14540253</value>
-                    </prop>
-                </node>
-                <node oor:name="AccentColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="DisabledTextColor">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="ShadowColor">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="SeparatorColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="FaceColor">
-                    <prop oor:name="Color">
-                        <value>15724527</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="ActiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="FieldColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarColor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarTextColor">
-                    <prop oor:name="Color">
-                        <value>16777215</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBarHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightColor">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuHighlightTextColor">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="MenuBorderColor">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveColor">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveTextColor">
-                    <prop oor:name="Color">
-                        <value>10066329</value>
-                    </prop>
-                </node>
-                <node oor:name="InactiveBorderColor">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="DocColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="DocBoundaries">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="AppBackground">
-                    <prop oor:name="Color">
-                        <value>3355443</value>
-                    </prop>
-                </node>
-                <node oor:name="ObjectBoundaries">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="TableBoundaries">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="FontColor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="Links">
-                    <prop oor:name="Color">
-                        <value>1939955</value>
-                    </prop>
-                </node>
-                <node oor:name="LinksVisited">
-                    <prop oor:name="Color">
-                        <value>10181046</value>
-                    </prop>
-                </node>
-                <node oor:name="Spell">
-                    <prop oor:name="Color">
-                        <value>13181214</value>
-                    </prop>
-                </node>
-                <node oor:name="Grammar">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="SmartTags">
-                    <prop oor:name="Color">
-                        <value>7865203</value>
-                    </prop>
-                </node>
-                <node oor:name="Shadow">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterTextGrid">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterFieldShadings">
-                    <prop oor:name="Color">
-                        <value>12632256</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterIdxShadings">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterDirectCursor">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterScriptIndicator">
-                    <prop oor:name="Color">
-                        <value>1993273</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterSectionBoundaries">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterHeaderFooterMark">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="WriterPageBreaks">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLSGML">
-                    <prop oor:name="Color">
-                        <value>255</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLComment">
-                    <prop oor:name="Color">
-                        <value>65280</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLKeyword">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="HTMLUnknown">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcGrid">
-                    <prop oor:name="Color">
-                        <value>1118481</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcCellFocus">
-                    <prop oor:name="Color">
-                        <value>5280650</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreak">
-                    <prop oor:name="Color">
-                        <value>128</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakManual">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcPageBreakAutomatic">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcHiddenColRow">
-                    <prop oor:name="Color">
-                        <value>2293980</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcTextOverflow">
-                    <prop oor:name="Color">
-                        <value>16711680</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcComments">
-                    <prop oor:name="Color">
-                        <value>12550558</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetective">
-                    <prop oor:name="Color">
-                        <value>3494505</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcDetectiveError">
-                    <prop oor:name="Color">
-                        <value>13181214</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcReference">
-                    <prop oor:name="Color">
-                        <value>861141</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcNotesBackground">
-                    <prop oor:name="Color">
-                        <value>15245826</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcValue">
-                    <prop oor:name="Color">
-                        <value>7512015</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcFormula">
-                    <prop oor:name="Color">
-                        <value>7847013</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcText">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="CalcProtectedBackground">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="DrawGrid">
-                    <prop oor:name="Color">
-                        <value>6710886</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICEditor">
-                    <prop oor:name="Color">
-                        <value>1842204</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICIdentifier">
-                    <prop oor:name="Color">
-                        <value>14543051</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICComment">
-                    <prop oor:name="Color">
-                        <value>15658734</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICNumber">
-                    <prop oor:name="Color">
-                        <value>16754342</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICString">
-                    <prop oor:name="Color">
-                        <value>16754342</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICOperator">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICKeyword">
-                    <prop oor:name="Color">
-                        <value>11847644</value>
-                    </prop>
-                </node>
-                <node oor:name="BASICError">
-                    <prop oor:name="Color">
-                        <value>16726072</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLIdentifier">
-                    <prop oor:name="Color">
-                        <value>39168</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLNumber">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLString">
-                    <prop oor:name="Color">
-                        <value>13531904</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLOperator">
-                    <prop oor:name="Color">
-                        <value>0</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLKeyword">
-                    <prop oor:name="Color">
-                        <value>230</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLParameter">
-                    <prop oor:name="Color">
-                        <value>2465181</value>
-                    </prop>
-                </node>
-                <node oor:name="SQLComment">
-                    <prop oor:name="Color">
-                        <value>8421504</value>
-                    </prop>
-                </node>
-            </node>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:install="http://openoffice.org/2004/installation" oor:name="UI"
+  oor:package="org.openoffice.Office">
+  <node oor:name="ColorScheme">
+    <node oor:name="ColorSchemes">
+      <node oor:name="CustomTheme" oor:op="replace">
+        <node oor:name="WindowColor">
+          <prop oor:name="Color">
+            <value>15266465</value>
+          </prop>
         </node>
+        <node oor:name="WindowTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="BaseColor">
+          <prop oor:name="Color">
+            <value>16777175</value>
+          </prop>
+        </node>
+        <node oor:name="ButtonColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="ButtonTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="AccentColor">
+          <prop oor:name="Color">
+            <value>5866416</value>
+          </prop>
+        </node>
+        <node oor:name="DisabledColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="DisabledTextColor">
+          <prop oor:name="Color">
+            <value>6710886</value>
+          </prop>
+        </node>
+        <node oor:name="ShadowColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="SeparatorColor">
+          <prop oor:name="Color">
+            <value>9014414</value>
+          </prop>
+        </node>
+        <node oor:name="FaceColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveColor">
+          <prop oor:name="Color">
+            <value>4042473</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveTextColor">
+          <prop oor:name="Color">
+            <value>16579836</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveBorderColor">
+          <prop oor:name="Color">
+            <value>12632256</value>
+          </prop>
+        </node>
+        <node oor:name="FieldColor">
+          <prop oor:name="Color">
+            <value>1777184</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarHighlightColor">
+          <prop oor:name="Color">
+            <value>4042473</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarHighlightTextColor">
+          <prop oor:name="Color">
+            <value>0</value>
+          </prop>
+        </node>
+        <node oor:name="MenuColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="MenuTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuHighlightColor">
+          <prop oor:name="Color">
+            <value>5866416</value>
+          </prop>
+        </node>
+        <node oor:name="MenuHighlightTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBorderColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveTextColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveBorderColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="DocColor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="DocBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="AppBackground">
+          <prop oor:name="Color">
+            <value>16185812</value>
+          </prop>
+        </node>
+        <node oor:name="ObjectBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="TableBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="FontColor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Links">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="LinksVisited">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Spell">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SmartTags">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Shadow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterTextGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterFieldShadings">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterIdxShadings">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Grammar">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterScriptIndicator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterSectionBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterHeaderFooterMark">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterPageBreaks">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterDirectCursor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcCellFocus">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreak">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreakManual">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreakAutomatic">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcHiddenColRow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcTextOverflow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcComments">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcDetective">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcDetectiveError">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcReference">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcNotesBackground">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcValue">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcFormula">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcText">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcProtectedBackground">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="DrawGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICEditor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICIdentifier">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICNumber">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICString">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICOperator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICError">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLIdentifier">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLNumber">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLString">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLOperator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLParameter">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLSGML">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLUnknown">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="CustomTheme Default" oor:op="replace">
+        <node oor:name="WindowColor">
+          <prop oor:name="Color">
+            <value>15266465</value>
+          </prop>
+        </node>
+        <node oor:name="WindowTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="BaseColor">
+          <prop oor:name="Color">
+            <value>16777175</value>
+          </prop>
+        </node>
+        <node oor:name="ButtonColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="ButtonTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="AccentColor">
+          <prop oor:name="Color">
+            <value>5866416</value>
+          </prop>
+        </node>
+        <node oor:name="DisabledColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="DisabledTextColor">
+          <prop oor:name="Color">
+            <value>6710886</value>
+          </prop>
+        </node>
+        <node oor:name="ShadowColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="SeparatorColor">
+          <prop oor:name="Color">
+            <value>9014414</value>
+          </prop>
+        </node>
+        <node oor:name="FaceColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveColor">
+          <prop oor:name="Color">
+            <value>4042473</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveTextColor">
+          <prop oor:name="Color">
+            <value>16579836</value>
+          </prop>
+        </node>
+        <node oor:name="ActiveBorderColor">
+          <prop oor:name="Color">
+            <value>12632256</value>
+          </prop>
+        </node>
+        <node oor:name="FieldColor">
+          <prop oor:name="Color">
+            <value>1777184</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarHighlightColor">
+          <prop oor:name="Color">
+            <value>4042473</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBarHighlightTextColor">
+          <prop oor:name="Color">
+            <value>0</value>
+          </prop>
+        </node>
+        <node oor:name="MenuColor">
+          <prop oor:name="Color">
+            <value>13953643</value>
+          </prop>
+        </node>
+        <node oor:name="MenuTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuHighlightColor">
+          <prop oor:name="Color">
+            <value>5866416</value>
+          </prop>
+        </node>
+        <node oor:name="MenuHighlightTextColor">
+          <prop oor:name="Color">
+            <value>1118481</value>
+          </prop>
+        </node>
+        <node oor:name="MenuBorderColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveTextColor">
+          <prop oor:name="Color">
+            <value>7238003</value>
+          </prop>
+        </node>
+        <node oor:name="InactiveBorderColor">
+          <prop oor:name="Color">
+            <value>2764338</value>
+          </prop>
+        </node>
+        <node oor:name="DocColor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="DocBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="AppBackground">
+          <prop oor:name="Color">
+            <value>16185812</value>
+          </prop>
+        </node>
+        <node oor:name="ObjectBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="TableBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="FontColor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Links">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="LinksVisited">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Spell">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SmartTags">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Shadow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterTextGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterFieldShadings">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterIdxShadings">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="Grammar">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterScriptIndicator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterSectionBoundaries">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterHeaderFooterMark">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterPageBreaks">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="WriterDirectCursor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcCellFocus">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreak">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreakManual">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcPageBreakAutomatic">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcHiddenColRow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcTextOverflow">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcComments">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcDetective">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcDetectiveError">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcReference">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcNotesBackground">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcValue">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcFormula">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcText">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="CalcProtectedBackground">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="DrawGrid">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICEditor">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICIdentifier">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICNumber">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICString">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICOperator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="BASICError">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLIdentifier">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLNumber">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLString">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLOperator">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLParameter">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="SQLComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLSGML">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLComment">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLKeyword">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+        <node oor:name="HTMLUnknown">
+          <prop oor:name="Color">
+            <value>-1</value>
+          </prop>
+        </node>
+      </node>
     </node>
     <!-- <prop oor:name="CurrentColorScheme"> -->
-    <!--     <value>DemoTheme Light</value> -->
+    <!--   <value>CustomTheme</value> -->
     <!-- </prop> -->
+  </node>
 </oor:component-data>
+

@@ -158,11 +158,6 @@
             <value>16185812</value>
           </prop>
         </node>
-        <node oor:name="ObjectBoundaries">
-          <prop oor:name="Color">
-            <value>-1</value>
-          </prop>
-        </node>
         <node oor:name="TableBoundaries">
           <prop oor:name="Color">
             <value>-1</value>

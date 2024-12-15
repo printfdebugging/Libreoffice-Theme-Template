@@ -13,4 +13,10 @@
     <display-name>
         <name>Lime Theme</name>
     </display-name>
+    <dependencies>
+        <lo:LibreOffice-minimal-version d:name="LibreOffice 25.2" value="25.2"/>
+    </dependencies>
+    <icon>
+        <default xlink:href="logo.png"/>
+    </icon>
 </description>

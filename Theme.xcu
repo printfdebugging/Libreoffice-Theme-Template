@@ -3,7 +3,7 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry"   xmlns:xs="http://www.w3.org/2001/XMLSchema"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xmlns:install="http://openoffice.org/2004/installation" oor:name="UI"   oor:package="org.openoffice.Office">
   <node oor:name="ColorScheme">
     <node oor:name="ColorSchemes">
-      <node oor:name="CustomTheme" oor:op="replace">
+      <node oor:name="Lime Theme" oor:op="replace">
         <node oor:name="WindowColor">
           <prop oor:name="Light">
             <value>15266465</value>
